@@ -1,0 +1,30 @@
+body {
+	margin: 0px;
+	background-color: gold;
+}
+
+header {
+	background-color: black;
+}
+
+nav h1 {
+	color: gold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+nav {
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+div {
+	padding: 20px;
+}
+
+input[type=text], [type=number]{
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

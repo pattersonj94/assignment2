@@ -3,10 +3,49 @@
   <head>
     <meta charset="UTF-8">
     <title>Assignment 2</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="JS/myscript.js"></script>
   </head>
   <body>
+    <header>
+      <nav>
+        <h1>Sports Form! Let's see what kind of sports fan you are!</h1>
+      </nav>
+    </header>
 
+    <div id="submit">
+      <form name="myForm" onSubmit="return validateForm()" method = "post">
+        First name:<br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname">
+        <br><br>
 
+        Who is your favorite Quarterback?<br>
+        <input type="text" name="quarterback"> 
+        <br><br>
+        
+        Who is your favorite kicker?<br>
+        <input type="text" name="kicker">
+        <br><br>
 
+        Who is your favorite team in the NFL?<br>
+        <input type="text" name="favoriteTeam">
+        <br><br>
+
+        Who is your favorite running back?<br>
+        <input type="text" name="runningBack">
+        <br><br>
+
+        Who is your favorite coach?<br>
+        <input type="text" name="coach">
+
+        <br><br>
+        <input type="submit" value="Submit">
+
+      </form>  
+    </div>
   </body>
 </html>
